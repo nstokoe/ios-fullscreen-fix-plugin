@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"  
+           id="com.nstokoe.ios-fullscreen-fix"
+      version="1.0.0">
+    <name>iOS Fullscreen Fix Plugin</name>
+    <description>A cordova plugin to automatically set the new fullscreen setting in xcode</description>
+
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="UIRequiresFullScreen">
+          <true/> 
+      </config-file>
+    </platform>
+</plugin>  
